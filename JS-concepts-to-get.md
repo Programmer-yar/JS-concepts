@@ -1,0 +1,13 @@
+## Concepts, Syntax to learn before learning JS frameworks
+- array methods like map, filter, find, reduce etc
+- basic data types in JS
+- variables and their scopes
+- promises
+- functions (declaration, callbacks)
+- arrow functions
+- basic understanding of classes and objects in JS
+- arrays and objects destructuring
+- combining 2 arrays in one
+- Reference vs Values
+- Short circuiting
+- modules, import export
