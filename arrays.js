@@ -19,6 +19,8 @@ console.log(myArray);
 // iterate through js arrays
 myArray.forEach(element => console.log(element));
 
+console.log("\n");
+
 myArray.forEach(function(element){console.log(element)});
 
 // loop through arrays
@@ -26,6 +28,8 @@ for (let i in myArray){
   // gives indexes of array
   console.log(i);
 }
+
+console.log("\n");
 
 for (let i of myArray){
   // gives elements of array
@@ -41,6 +45,7 @@ console.log(array3);
 
 // arrays length is manually changeable
 console.log("length of array3 is : ", array3.length);
+
 // indices after 4 will be removed
 array3.length = 5;
 console.log("length of", array3, "is: ", array3.length);
