@@ -21,7 +21,7 @@ console.log(`Elements in ${array1}  which are greater than 4`);
 console.log(array1.filter(x => x > 4));
 
 
-/* "at()" method useful method for getting values from last
+/* "at()" method, useful method for getting values from last
  returns the last value (not supported in old browsers or node version 14)
 */
 // console.log(array1.at(-1));
@@ -56,3 +56,7 @@ console.log(array3.reduce(function (previousValue, currentValue) {
 
 // reduce method using arrow function
 console.log(array3.reduce((previousValue, currentValue) => previousValue + currentValue, 0))
+
+// combine two arrays into one
+let combinedArray = [...array1, ...array2];
+console.log('two arrays in one ', combinedArray);

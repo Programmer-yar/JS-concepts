@@ -1,7 +1,6 @@
 ## Concepts, Syntax to learn before learning JS frameworks
 - basic data types in JS
 - array methods like map, filter, find, reduce etc
-- combining 2 arrays in one
 - variables and their scopes
 - promises
 - functions (declaration, callbacks)

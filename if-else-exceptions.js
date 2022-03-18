@@ -12,7 +12,7 @@ function getMonthName(mo) {
 console.log(getMonthName(12));
 
 try {
-  throw 'myException'; // generates an exception
+  throw 'A custom exception'; // generates an exception
 }
 catch (err) {
   // statements to handle any exceptions
