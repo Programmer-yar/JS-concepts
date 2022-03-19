@@ -1,9 +1,12 @@
 /* Objects in JS:
-- A set is a collection of related data or functionality
+- is a collection of related data or functionality
 - Usually consists of several variables and functions
 - An object property can itself be an object
 */
-
+/* "this" keyword:
+- refers to the current object, the code is being written inside
+- for "person" object below "this" refers to 'person' object
+*/
 
 
 const person = {
@@ -25,7 +28,10 @@ const person = {
 console.log(person.name);
 person.bio();
 person.introduceSelf();
-console.log(person['techStack']['backend']);
+console.log("With bracket notation: ", person['techStack']['backend']);
+
+// same as above
+console.log("with dot notation: ", person.techStack.frontend);
 
 // update object members
 person.age = 25;
