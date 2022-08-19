@@ -5,7 +5,7 @@
 */
 /* "this" keyword:
 - refers to the current object, the code is being written inside
-- for "person" object below "this" refers to 'person' object
+- In "person" object below, "this" refers to 'person' object
 */
 
 
